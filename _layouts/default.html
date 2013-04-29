@@ -4,9 +4,44 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ page.title }}</title>
-    
-    <link rel="stylesheet" href="stylesheets/styles.css">
+
+    <!-- <link rel="stylesheet" href="stylesheets/styles.css"> -->
+    <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <style>
+      body, h1, h2, h3 { color: #494949; }
+      body { padding:50px; font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#777; font-weight:300; }
+      header { margin-bottom: 20px; }
+      header h1 { margin-bottom: 0px; font-weigth: bold; }
+      header h3 { margin-top: 15px; margin-bottom: 10px; }
+      header p.view { font-size: 18px; margin-bottom: 5px; }
+      header p.view small { font-size: 14px; padding-top: 2px; }
+      header a small { display: block; }
+
+      header { border-right: 1px solid #ddd; }
+      section { width: 550px; }
+      section p { text-align: justify; }
+
+      section img { vertical-align: middle; margin-right: 0.5em; }
+      .icon { float: left; display: block; width: 48px; height: 48px; margin-right: 0.5em; }
+      .icon_cv { background-image: url('../img/free_for_job_48.png'); }
+      .icon_li { background-image: url('../img/linkedin_48.png'); }
+      .icon_fb { background-image: url('../img/facebook_48.png'); }
+      .icon_tw { background-image: url('../img/twitter_48.png'); }
+      .icon_gh { background-image: url('../img/github_48.png'); }
+      .icon_music { background-image: url('../img/music_48.png'); }
+      .icon_packages { background-image: url('../img/packages_48.png'); }
+      .clear-fix { clear: both; }
+      footer { bottom:20px; }
+      @media print, screen and (max-width: 480px) {
+        body { padding: 5px; }
+        section { width: 100%; }
+        header { border-right: 0px; }
+        section img { float: left; }
+        section a { clear: both; }
+      }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,20 +50,22 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Minimal</h1>
-        <p>A Theme for GitHub Pages</p>
-        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
-        <ul>
-          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-        </ul>
+        <h1>Jdel.org</h1>
+        <p>A bearded frenchman's whereabouts</p>
+        <p class="view clear-fix"><a href="about.html"><i class="icon icon_cv"></i>About me<small>Bio, CV, public key...</small></a></p>
+        <p class="view clear-fix"><a href="packages.html"><i class="icon icon_packages"></i>Packages<small>For your Synology NAS</small></a></p>
+        <p class="view clear-fix"><a href="music.html"><i class="icon icon_music"></i>Music Projects<small>For your ears</small></a></p>
+
+        <h3>Social</h3>
+        <p class="view clear-fix"><a href="http://www.linkedin.com/in/delpiccolo"><i class="icon icon_li"></i>Join my network <small>On LinkedIn</small></a></p>
+        <p class="view clear-fix"><a href="http://facebook.com/julien.delpiccolo"><i class="icon icon_fb"></i>Friend me <small>On Facebook</small></a></p>
+        <p class="view clear-fix"><a href="http://twitter.com/jdel_/"><i class="icon icon_tw"></i>Follow me <small>On Twitter</small></a></p>
+        <p class="view clear-fix"><a href="http://github.com/jdel/"><i class="icon icon_gh"></i>Fork me <small>On GitHub</small></a></p>
       </header>
       <section>
         {{ content }}
       </section>
       <footer>
-        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
