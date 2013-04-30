@@ -1,0 +1,14 @@
+<h2>Not found</h2>  
+<p>This file does not exist.</p>
+If you got here with a link for a previous version of my blog, try 
+<a id="newLink" href="/archive.html">the archive</a>
+
+<script type="text/javascript">
+var url = document.location.href;
+if (url.indexOf("www.jdel.org") ) {
+url = url.replace(/www/g, "static");
+var link = document.getElementById("newLink");
+link.setAttribute("href", url);
+link.innerText = url;
+}
+</script>
