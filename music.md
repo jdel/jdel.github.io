@@ -8,7 +8,7 @@ Music Projects
 
 I have been playing the bass for about ten years now and I am currently performing with Atomic Rocket Seeders.
 
-ARS is a four-piece band which plays the king of music that doesn't belong to a specific genre. Formed by musicians with different music backgrounds, ARS creates a mix of 90s rock and more recent metal.
+ARS is a four-piece band which plays the kind of music that doesn't belong to a specific genre. Formed by musicians with different music backgrounds, ARS creates a mix of 90s rock and more recent metal.
 
 ---
 
