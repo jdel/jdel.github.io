@@ -16,6 +16,6 @@ I spent the last ten years teaching myself music too. I currently play the bass 
 
 [![Email](img/email.jpg)](mailto:julien@del-piccolo.com) Contact me.
 
-[![CV](img/cv.png)](140325%20-%20Julien%20Del-Piccolo%20CV.pdf) You can find here my full length CV in PDF format.
+[![CV](img/cv.png)](141016%20-%20Julien%20Del-Piccolo%20CV.pdf) You can find here my full length CV in PDF format.
 
 [![Key](img/key.png)](public.key) And also the public key I (sometime) use for signing.
