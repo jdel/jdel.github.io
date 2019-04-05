@@ -5,3 +5,5 @@ server_port: 4000
 markdown: kramdown
 pygments:    true
 permalink:   date
+plugins:
+  - jekyll-redirect-from
