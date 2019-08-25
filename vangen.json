@@ -1,0 +1,42 @@
+{
+    "domain": "jdel.org",
+    "repositories": [
+      {
+        "prefix": "acdc",
+        "subs": [
+            "api",
+            "cfg",
+            "cmd",
+            "handler",
+            "hooks",
+            "lgr",
+            "rtr",
+            "stc",
+            "util"
+        ],
+        "url": "https://github.com/jdel/acdc"
+      },
+      {
+        "prefix": "go-syno",
+        "subs": [
+          "template"
+        ],
+        "url": "https://github.com/jdel/go-syno"
+      },
+      {
+        "prefix": "gosspks",
+        "subs": [
+            "cache",
+            "cfg",
+            "cmd",
+            "handler",
+            "hooks",
+            "lgr",
+            "rtr",
+            "stc",
+            "util"
+        ],
+        "url": "https://github.com/jdel/gosspks"
+      }
+    ]
+}
