@@ -8,6 +8,7 @@
             "cfg",
             "cmd",
             "handler",
+            "handler/v1",
             "hooks",
             "lgr",
             "rtr",
