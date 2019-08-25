@@ -18,9 +18,6 @@
       },
       {
         "prefix": "go-syno",
-        "subs": [
-          "template"
-        ],
         "url": "https://github.com/jdel/go-syno"
       },
       {
